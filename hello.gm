@@ -1,0 +1,330 @@
+______
+
+PLAYERS
+
+PLAYER 1
+PLAYER 2
+
+______
+
+CARDS
+	
+"Eager Cadet"
+  Cost: 1
+  Type: creature
+  Stats: 1/1
+
+"Opt"
+  Cost: 1
+  Type: spell
+  Effect: Scry 1. Draw a card.
+  
+"Shock"
+  Cost: 1
+  Type: spell
+  Effect: Shock deals 2 damage to target creature or player.
+
+"Vampiric Tutor"
+  Cost: 1
+  Type: spell
+  Effect: Search your library for a card, then shuffle your library and put that card on top of it. You lose 2 life.
+
+"Frostling"
+  Cost: 1
+  Type: creature
+  Effect: Sacrifice Frostling: Frostling deals 1 damage to target creature.
+  Stats: 1/1
+
+"Bog Imp"
+  Cost: 2
+  Type: creature
+  Effect: Flying
+  Stats: 1/1
+
+"Palace Familiar"
+  Cost: 2
+  Type: creature
+  Effect: Flying. When Palace Familiar dies, draw a card.
+  Stats: 1/1
+
+"Armored Pegasus"
+  Cost: 2
+  Type: creature
+  Effect: Flying
+  Stats: 1/2
+
+"Arashin Cleric"
+  Cost: 2
+  Type: creature
+  Effect: When Arashin Cleric enters the battlefield, you gain 3 life.
+  Stats: 1/3
+
+"Runed Servitor"
+  Cost: 2
+  Type: creature
+  Effect: When Runed Servitor dies, each player draws a card.
+  Stats: 2/2
+
+"Blade of the Sixth Pride"
+  Cost: 2
+  Type: creature
+  Stats: 3/1
+
+"Skittering Skirge"
+  Cost: 2
+  Type: creature
+  Effect: When you cast a creature spell, sacrifice Skittering Skirge.
+  Stats: 3/2
+
+"Wretched Anurid"
+  Cost: 2
+  Type: creature
+  Effect: Whenever another creature enters the battlefield, you lose 1 life.
+  Stats: 3/3
+
+"Pyroclasm"
+  Cost: 2
+  Type: spell
+  Effect: Pyroclasm deals 2 damage to each creature.
+
+"Lightning Strike"
+  Cost: 2
+  Type: spell
+  Effect: Lightning Strike deals 3 damage to target creature or player
+
+"Think Twice"
+  Cost: 2
+  Type: spell
+  Effect: Draw a card. Flashback 3
+
+"Dry Spell"
+  Cost: 2
+  Type: spell
+  Effect: Dry Spell deals 1 damage to each creature and each player.
+
+"Scathe Zombies"
+  Cost: 3
+  Type: creature
+  Stats: 2/2
+  
+"Murder"
+  Cost: 3
+  Type: spell
+  Effect: Destroy target creature.
+
+"Last Kiss"
+  Cost: 3
+  Type: spell
+  Effect: Last Kiss deals 2 damage to target creature. You gain 2 life.
+
+"Divination"
+  Cost: 3
+  Type: spell
+  Effect: Draw two cards.
+  
+"Anguished Unmaking"
+  Cost: 3
+  Type: spell
+  Effect: Exile target nonland permanent. You lose 3 life.
+  
+"Hill Giant"
+  Cost: 4
+  Type: creature
+  Stats: 3/3
+
+______
+
+TURN 1
+
+PLAYER 1
+> End turn.
+
+PLAYER 2
+> Cast "Shock" on Player 1.
+> End turn.
+
+______
+
+TURN 2
+
+PLAYER 1
+> End turn.
+
+PLAYER 2
+> Summon "Blade of the Sixth Pride".
+> End turn.
+
+______
+
+TURN 3
+
+PLAYER 1
+> Summon "Bog Imp".
+> End turn.
+
+PLAYER 2
+> Attack Player 1 with "Blade of the Sixth Pride".
+> End turn.
+
+______
+
+TURN 4
+
+PLAYER 1
+> Cast "Lightning Strike" on "Blade of the Sixth Pride".
+> Cast "Vampiric Tutor".
+> Attack with "Bog Imp".
+> End turn.
+
+PLAYER 2
+> Cast "Pyroclasm".
+> Summon "Palace Familiar".
+> End turn.
+
+______
+
+TURN 5
+
+PLAYER 1
+> Summon "Arashin Cleric".
+> Trigger "Arashin Cleric" ability.
+> Summon "Skittering Skirge".
+> Cast "Shock" on Player 2.
+> End turn.
+
+PLAYER 2
+> Summon "Arashin Cleric".
+> Trigger "Arashin Cleric" ability.
+> Combat "Palace Familiar" "Skittering Skirge".
+> Trigger "Palace Familiar" ability.
+> Summon "Frostling".
+> Activate "Frostling" ability targeting "Skittering Skirge".
+> Summon "Armored Pegasus".
+> End turn.
+
+______
+
+TURN 6
+
+PLAYER 1
+> Attack Player 2 with "Arashin Cleric".
+> Summon "Hill Giant".
+> Summon "Runed Servitor"
+> End turn.
+
+PLAYER 2
+> Attack Player 1 with "Armored Pegasus".
+> Cast "Lightning Strike" on "Arashin Cleric" owned by Player 1.
+> End turn.
+
+______
+
+TURN 7
+
+PLAYER 1
+> Cast "Think Twice".
+> Attack "Arashin Cleric" with "Runed Servitor".
+> Attack Player 2 with "Hill Giant".
+> Summon "Bog Imp".
+> End turn.
+
+PLAYER 2
+> Cast "Anguished Unmaking" targeting "Hill Giant".
+> Combat "Armored Pegasus" "Bog Imp".
+> Attack Player 1 with "Arashin Cleric".
+> End turn.
+
+______
+
+TURN 8
+
+PLAYER 1
+> Cast "Divination".
+> Attack with "Runed Servitor".
+> Summon "Skittering Skirge".
+> Summon "Eager Cadet".
+> End turn.
+
+PLAYER 2
+> Attack with "Armored Pegasus".
+> Cast "Last Kiss" on "Runed Servitor".
+> Trigger "Runed Servitor" ability.
+> Summon "Wretched Anurid".
+> End turn.
+
+______
+
+TURN 9
+
+PLAYER 1
+> Attack "Arashin Cleric" with "Skittering Skirge".
+> Cast "Murder" on "Armored Pegasus".
+> End turn.
+
+PLAYER 2
+> Cast "Anguished Unmaking" on "Skittering Skirge".
+> Attack Player 1 with "Wretched Anurid".
+> Summon "Frostling".
+> Trigger "Wretched Anurid" ability.
+> End turn.
+
+________
+
+TURN 10
+
+PLAYER 1
+> Attack Player 2 with "Eager Cadet".
+> Cast "Murder" on "Wretched Anurid".
+> End turn.
+
+PLAYER 2
+> Cast "Opt".
+> End turn.
+
+______
+
+TURN 11
+
+PLAYER 1
+> Attack Player 2 with "Eager Cadet".
+> End turn.
+
+PLAYER 2
+> Attack Player 1 with "Frostling".
+> Summon "Hill Giant".
+> Summon "Wretched Anurid".
+> End turn.
+
+_______
+
+TURN 12
+
+PLAYER 1
+> Cast "Think Twice".
+> Cast "Dry Spell".
+> Cast "Think Twice".
+> End turn.
+
+PLAYER 2
+> Attack with "Hill Giant" and "Wretched Anurid".
+> Summon "Scathe Zombies".
+> Trigger "Wretched Anurid" ability.
+> End turn.
+
+______
+
+TURN 13
+
+PLAYER 1
+> Cast "Opt".
+> Cast "Lightning Strike" on "Hill Giant".
+> End turn.
+
+PLAYER 2
+> Cast "Dry Spell".
+> Summon "Scathe Zombies".
+> Trigger "Wretched Anurid" ability.
+> Cast "Think Twice".
+> Attack with "Wretched Anurid".
+
+GAME WON BY PLAYER 2

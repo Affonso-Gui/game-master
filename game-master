@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if [ -z $1 ]
+then
+    clisp -q -q -i ~/.game-master.fas -repl
+else
+    clisp -q -q -i ~/.game-master.fas -i $1
+fi
